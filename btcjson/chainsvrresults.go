@@ -431,6 +431,7 @@ type ScriptPubKeyResult struct {
 	Hex       string   `json:"hex,omitempty"`
 	ReqSigs   int32    `json:"reqSigs,omitempty"`
 	Type      string   `json:"type"`
+	Address   string   `json:"address,omitempty"`
 	Addresses []string `json:"addresses,omitempty"`
 }
 
